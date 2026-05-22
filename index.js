@@ -24,6 +24,7 @@ const topMenuEl = document.getElementById('top-menu'); //getElementById for id s
 topMenuEl.style.height = '100%'; // 100% height from styles.css
 
 // Set the background color of topMenuEl to the value stored in the --top-menu-bg CSS custom property.
+topMenuEl.style.backgroundColor = 'var(--top-menu-bg)'; //reference var custom property
 
 // Add a class of flex-around to topMenuEl.
 
