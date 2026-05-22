@@ -13,3 +13,16 @@ mainEl.innerHTML = '<h1>DOM Manipulation</h1>'; // h1 from index.html
 // Add a class of flex-ctr to mainEl.
 // Hint: Use the Element.classList API.
 mainEl.classList.add('flex-ctr'); // flex-ctr from styles.css
+
+//Part 2: Creating a Menu Bar
+// Next, create a blank menu bar that we can use to later add some interactivity to the page:
+
+// Select and cache the <nav id="top-menu"> element in a variable named topMenuEl.
+
+// Set the height of the topMenuEl element to be 100%.
+
+// Set the background color of topMenuEl to the value stored in the --top-menu-bg CSS custom property.
+
+// Add a class of flex-around to topMenuEl.
+
+// Progress Check - Here's what the page should look like so far:
