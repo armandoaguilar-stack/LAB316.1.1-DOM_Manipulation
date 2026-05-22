@@ -28,3 +28,12 @@ topMenuEl.style.backgroundColor = 'var(--top-menu-bg)'; //reference var custom p
 
 // Add a class of flex-around to topMenuEl.
 topMenuEl.classList.add('flex-around'); // //classlist used to add flex-around from styles.css
+
+// Part 3: Adding Menu Buttons
+
+// Create an <a> element.
+const a = document.createElement('a'); 
+
+// On the new element, add an href attribute with its value set to the href property of the "link" object.
+a.setAttribute('href', link.href); // setAttribute to set href attribute, link.href to reference the href property of the "link" object
+
