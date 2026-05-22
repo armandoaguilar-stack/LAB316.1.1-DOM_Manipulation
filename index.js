@@ -30,10 +30,26 @@ topMenuEl.style.backgroundColor = 'var(--top-menu-bg)'; //reference var custom p
 topMenuEl.classList.add('flex-around'); // //classlist used to add flex-around from styles.css
 
 // Part 3: Adding Menu Buttons
+var menuLinks = [
+  { text: 'about', href: '/about' },
+  { text: 'catalog', href: '/catalog' },
+  { text: 'orders', href: '/orders' },
+  { text: 'account', href: '/account' },
+];
 
-// Create an <a> element.
-const a = document.createElement('a'); 
+//Iterate over the entire menuLinks array and for each "link" object:
+menuLinks.forEach(function(link) { 
+
+const a = document.createElement('a'); // Create an <a> element.
 
 // On the new element, add an href attribute with its value set to the href property of the "link" object.
 a.setAttribute('href', link.href); // setAttribute to set href attribute, link.href to reference the href property of the "link" object
+
+// Set the new element's content to the value of the text property of the "link" object.
+a.textContent = link.text; // textContent to set the content of the new element, link.text to reference the text property of the "link" object
+
+// Append the new element to the topMenuEl element.
+topMenuEl.appendChild(a); // appendChild to append the new element to the topMenuEl element
+
+}); // forEach to iterate over the entire menuLinks array and for each "link" object
 
