@@ -16,8 +16,9 @@ mainEl.classList.add('flex-ctr'); // flex-ctr from styles.css
 
 //Part 2: Creating a Menu Bar
 // Next, create a blank menu bar that we can use to later add some interactivity to the page:
-
 // Select and cache the <nav id="top-menu"> element in a variable named topMenuEl.
+
+const topMenuEl = document.getElementById('top-menu'); //getElementById for id selector, top-menu 
 
 // Set the height of the topMenuEl element to be 100%.
 
