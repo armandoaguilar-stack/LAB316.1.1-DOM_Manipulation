@@ -27,5 +27,4 @@ topMenuEl.style.height = '100%'; // 100% height from styles.css
 topMenuEl.style.backgroundColor = 'var(--top-menu-bg)'; //reference var custom property
 
 // Add a class of flex-around to topMenuEl.
-
-// Progress Check - Here's what the page should look like so far:
+topMenuEl.classList.add('flex-around'); // //classlist used to add flex-around from styles.css
