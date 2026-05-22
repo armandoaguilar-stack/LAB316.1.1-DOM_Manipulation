@@ -21,6 +21,7 @@ mainEl.classList.add('flex-ctr'); // flex-ctr from styles.css
 const topMenuEl = document.getElementById('top-menu'); //getElementById for id selector, top-menu 
 
 // Set the height of the topMenuEl element to be 100%.
+topMenuEl.style.height = '100%'; // 100% height from styles.css
 
 // Set the background color of topMenuEl to the value stored in the --top-menu-bg CSS custom property.
 
